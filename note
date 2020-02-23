@@ -1,0 +1,19 @@
+no-sm-bert.py
+   no-use->sm
+   from->
+   https://www.space-i.com/post-blog/bert-as-service-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E5%8C%96%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89/
+
+   model->
+   multi_cased_L-12_H-768_A-12.zip
+
+sm-bert.py
+   use->sm
+   from->
+   https://qiita.com/ShuntaIto/items/715faa1ad35ad3e00e8e
+   model->
+   i make a model depend on url
+
+api.py
+   from->
+   https://github.com/kamalkraj/BERT-SQuAD/blob/master/README.md
+   
